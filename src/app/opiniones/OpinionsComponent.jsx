@@ -25,13 +25,7 @@ const OpinionsComponent = () => {
         setOpinions(data)
       } catch (err) {
         // Fallback data para visualización si falla el fetch o para pruebas
-        setOpinions([
-            { id: 1, name: "Ana García", role: "Paciente Presencial", date: "Hace 2 meses", rating: 5, content: "La atención fue increíblemente humana. Llegué con mucha ansiedad y desde la primera sesión sentí un espacio seguro. Recomiendo ampliamente sus servicios." },
-            { id: 2, name: "Carlos M.", role: "Terapia Online", date: "Hace 1 mes", rating: 5, content: "Al principio dudaba de la terapia en línea, pero la conexión fue inmediata. Me ha ayudado muchísimo a gestionar mi duelo. Es una profesional excelente." },
-            { id: 3, name: "Luisa F.", role: "Acompañamiento", date: "Hace 3 semanas", rating: 4, content: "Muy buena experiencia. Me escuchó con atención y me dio herramientas prácticas que uso todos los días. A veces es difícil agendar pero vale la pena." },
-            { id: 4, name: "Roberto S.", role: "Paciente Oncológico", date: "Hace 1 semana", rating: 5, content: "El apoyo durante mi tratamiento ha sido fundamental. No solo me ayuda a mí, sino que orientó a mi familia sobre cómo acompañarme. Estoy profundamente agradecido por su empatía y profesionalismo en momentos tan duros. Un texto largo para probar el scroll." },
-            { id: 5, name: "Mariana T.", role: "Terapia Individual", date: "Ayer", rating: 5, content: "Excelente psicóloga. Muy preparada y con un trato muy cálido." },
-        ])
+        
         // Descomentar la siguiente línea para usar error real:
         // setError(err.message)
       } finally {

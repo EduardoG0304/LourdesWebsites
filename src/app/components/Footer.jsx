@@ -55,7 +55,7 @@ const Footer = () => {
             >
               Psicóloga clínica especializada en intervención en crisis y tanatología, comprometida con tu bienestar emocional.
             </p>
-            {/* Texto oculto para SEO */}
+         
             <div className="sr-only">
               <meta itemProp="keywords" content={seoData.keywords.join(', ')} />
               <meta itemProp="knowsAbout" content="tanatología, intervención en crisis, psicología clínica" />
