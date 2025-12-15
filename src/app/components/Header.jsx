@@ -244,7 +244,6 @@ const Header = () => {
                     ASOCIACIÓN PANAMERICANA DE CUIDADOS PALIATIVOS
                   </p>
                 </div>
-                {/* Triángulo inferior */}
                 <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-4 h-4 bg-white border-b border-r border-sky-50 rotate-45"></div>
               </motion.div>
             )}
