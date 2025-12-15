@@ -226,7 +226,6 @@ const Services = () => {
                 </div>
               </div>
 
-              {/* Metadatos ocultos para SEO */}
               <div className="sr-only">
                 <meta itemProp="keywords" content={service.seoData.keywords.join(', ')} />
                 <span itemProp="serviceType">{service.title}</span>
